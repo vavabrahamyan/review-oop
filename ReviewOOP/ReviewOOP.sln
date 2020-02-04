@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "Exceptions\Ex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefAndOut", "RefAndOut\RefAndOut.csproj", "{8821103A-78FC-4B73-94E2-80221C2496A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatorOverloading", "OperatorOverloading\OperatorOverloading.csproj", "{04BC06D7-A4FD-484C-B360-3887E8E53987}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{8821103A-78FC-4B73-94E2-80221C2496A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8821103A-78FC-4B73-94E2-80221C2496A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8821103A-78FC-4B73-94E2-80221C2496A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04BC06D7-A4FD-484C-B360-3887E8E53987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04BC06D7-A4FD-484C-B360-3887E8E53987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04BC06D7-A4FD-484C-B360-3887E8E53987}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04BC06D7-A4FD-484C-B360-3887E8E53987}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
