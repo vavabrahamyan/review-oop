@@ -4,11 +4,35 @@ namespace Corteges
 {
     class Program
     {
+        static (string, int) ReturnResult((int, string) tuple, int num)
+        {
+            var result = (name: tuple.Item2, age: tuple.Item1 * num);
+            return result;
+        }
+        static (int, int) RetTwoResult()
+        {
+            int result = 1;
+            int result2 = 5;
+            return (result, result2);
+        }
+        static int GetValue()
+        {
+            int result = 1;
+            return result;
+        }
         static void Main(string[] args)
         {
             //Example1();
 
             //Example2();
+
+            //GetValue();
+
+            //RetTwoResult();
+
+            //ReturnResult(("Sam", 10), 2);
+
+            Console.ReadKey();
         }
 
         private static void Example2()
