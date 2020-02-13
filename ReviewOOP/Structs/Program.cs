@@ -24,6 +24,8 @@ namespace Structs
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(      "Hello World !!!");
+            Console.WriteLine("How are you?");
 
             //Example1();
         }
