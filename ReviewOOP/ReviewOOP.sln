@@ -5,15 +5,17 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structs", "Structs\Structs.csproj", "{48052527-0C64-4BA4-90D7-FD049A155DFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Corteges", "Corteges\Corteges.csproj", "{DF0A9300-39FD-4A9F-8280-28AC57F45FD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Corteges", "Corteges\Corteges.csproj", "{DF0A9300-39FD-4A9F-8280-28AC57F45FD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "Exceptions\Exceptions.csproj", "{D6B457D2-5494-422A-B36C-12D1DF654D73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exceptions", "Exceptions\Exceptions.csproj", "{D6B457D2-5494-422A-B36C-12D1DF654D73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefAndOut", "RefAndOut\RefAndOut.csproj", "{8821103A-78FC-4B73-94E2-80221C2496A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefAndOut", "RefAndOut\RefAndOut.csproj", "{8821103A-78FC-4B73-94E2-80221C2496A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatorOverloading", "OperatorOverloading\OperatorOverloading.csproj", "{04BC06D7-A4FD-484C-B360-3887E8E53987}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperatorOverloading", "OperatorOverloading\OperatorOverloading.csproj", "{04BC06D7-A4FD-484C-B360-3887E8E53987}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClasses", "AbstractClasses\AbstractClasses.csproj", "{55DA7475-72A8-4C00-9C58-A2AE15DCBF75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractClasses", "AbstractClasses\AbstractClasses.csproj", "{55DA7475-72A8-4C00-9C58-A2AE15DCBF75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{9CC7C394-8278-49CA-8288-A1612A7C3B5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{55DA7475-72A8-4C00-9C58-A2AE15DCBF75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55DA7475-72A8-4C00-9C58-A2AE15DCBF75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55DA7475-72A8-4C00-9C58-A2AE15DCBF75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CC7C394-8278-49CA-8288-A1612A7C3B5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CC7C394-8278-49CA-8288-A1612A7C3B5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CC7C394-8278-49CA-8288-A1612A7C3B5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CC7C394-8278-49CA-8288-A1612A7C3B5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
