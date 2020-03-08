@@ -32,7 +32,6 @@ namespace Lambda
                 _sum -= sum;
                 if (Withdrawn != null)
                     Withdrawn(this, new AccountEventArgs($"Withdraw of balance{sum}", sum));
-
             }
         }
     }

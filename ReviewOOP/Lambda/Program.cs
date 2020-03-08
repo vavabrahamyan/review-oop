@@ -13,15 +13,23 @@ namespace Lambda
         public delegate void Display(string str);
         static void Main(string[] args)
         {
-            Account account = new Account(100);
-            account.Added += (sender, e) =>
+            int[] nums = new int[20] ;
+            for (int i = 0; i < nums.Length; i++)
             {
-                Console.WriteLine(e.Sum);
-                Console.WriteLine(e.Message);
-            };
+                nums[i] = i;
+            }
+            var squareNumbers = nums.Select(x => x * x);
+            Console.WriteLine(string.Join("/", squareNumbers));
 
-            account.Put(100);
-            account.Put(203);
+            //Account account = new Account(100);
+            //account.Added += (sender, e) =>
+            //{
+            //    Console.WriteLine(e.Sum);
+            //    Console.WriteLine(e.Message);
+            //};
+
+            //account.Put(100);
+            //account.Put(203);
 
 
             //Display display = (p) => Console.WriteLine(p.ToString());
