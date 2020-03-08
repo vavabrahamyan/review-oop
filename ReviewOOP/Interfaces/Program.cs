@@ -6,6 +6,24 @@ namespace Interfaces
     {
         static void Main(string[] args)
         {
+            string s = Console.ReadLine();
+
+            Console.WriteLine(Statement(s));
+
+
+        }
+        public static string Statement(string str)
+        {
+            string ret = "";
+            for (int i = str.Length-1; i >= 0; i--)
+            {
+                ret += str[i];
+            }
+            return ret;
+        } 
+    }
+}
+
             //about IEnumerable, ICollection and IList
             //IList is inherited of ICollection and IEnumerable
             //ICollection is inherited of IEnumerable 
@@ -18,6 +36,4 @@ namespace Interfaces
                     //CopyTo()
                 //Methodes and fields in IEnumerable
                     //GetEnumerator(),
-        }
-    }
-}
+
