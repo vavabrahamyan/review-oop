@@ -29,8 +29,9 @@ namespace AbstractClasses
         }
 
         public int Sum { get; set; }
-        public override string Name { get; set; }
+
         public override string Surame { get; set; }
+        public override string Name { get; set; }
 
         public override void Display()
         {
@@ -44,12 +45,12 @@ namespace AbstractClasses
         }
 
         public string Position { get; set; }
-        public override string Name { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override string Surame { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public override string Name { get; set; }
+        public override string Surame { get; set; }
 
         public override void Display()
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"{Name}__{Surame}s position is {Position}");
         }
     }
 }

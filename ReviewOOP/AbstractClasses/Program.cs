@@ -6,8 +6,10 @@ namespace AbstractClasses
     {
         static void Main(string[] args)
         {
-            Person person = new Employee("V", "A");
-            person.name = "124";
+            Employee emp = new Employee("V", "A");
+            emp.Name = "Vahe";
+            emp.Surame = "Abrahamyan";
+            emp.Display();
         }
     }
 }
