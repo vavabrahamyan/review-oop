@@ -22,7 +22,9 @@ namespace Structs
             string decodedString = DecodeMethod(encodingUTF8, encodedBytes);
             Console.WriteLine("Decoded string: " + decodedString);
 
-
+            // ...
+            Console.WriteLine("Incha axchi?");
+ 
             //Method();
             Console.ReadLine();
         }
