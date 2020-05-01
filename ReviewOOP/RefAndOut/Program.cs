@@ -12,11 +12,11 @@ namespace RefAndOut
 
             //int[] numbers = { 1, 2, 3, 4, 5, 6, 7 };
 
-            //ref int nRef = ref Find(numbers, 4);
-            //Console.WriteLine(numbers[3]);
+            ref int nRef = ref Find(numbers, 4);
+            Console.WriteLine(numbers[3]);
 
-            //nRef = 45;
-            //Console.WriteLine(numbers[3]);
+            nRef = 45;
+            Console.WriteLine(numbers[3]);
 
             Console.ReadKey();
         }
