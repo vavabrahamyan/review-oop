@@ -13,6 +13,11 @@ namespace Oerators_is_as
     }
     internal class C:B
     {
-    
+        internal int Id {get;set;}
+        
+        void Print()
+        {
+            Console.WriteLine($" This Id: {Id}");
+        }
     }
 }
