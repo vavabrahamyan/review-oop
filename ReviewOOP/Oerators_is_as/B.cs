@@ -11,4 +11,8 @@ namespace Oerators_is_as
     {
 
     }
+    internal class C:B
+    {
+    
+    }
 }
