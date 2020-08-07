@@ -5,10 +5,9 @@ namespace Interfaces
     class Program
     {
         static void Main(string[] args)
-        {
-            string s = Console.ReadLine();
+        { 
+            Room room = new Room(8);
 
-            Console.WriteLine(Statement(s));
 
 
         }
