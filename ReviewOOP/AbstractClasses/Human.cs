@@ -21,6 +21,10 @@ namespace AbstractClasses
         public abstract string Surame { get; set; }
         public abstract void Display();
     }
+    //private abstract class Bear
+    //{
+
+    //}
     class Client:Person
     {
         public Client(string name, string surame, int sum) : base(name, surame)
