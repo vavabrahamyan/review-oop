@@ -6,8 +6,9 @@ namespace Interfaces
     {
         static void Main(string[] args)
         {
-            IRoom r = new Room();
-            r.DoIt();
+            Tester t = new Tester();
+
+            (t as IRoom).DoIt();
 
         }
         public static string Statement(string str)

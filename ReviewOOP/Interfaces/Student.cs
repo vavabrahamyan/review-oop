@@ -6,27 +6,40 @@ using System.Text;
 
 namespace Interfaces
 {
+    public interface IHome
+    {
+        public void DoIt();
+    }
     public interface IRoom
     {
-        private const int MaxSpeed = 90;
-        public void DoIt()
+        public void DoIt();
+
+        public int MyFoo()
         {
-            Console.WriteLine("Good Morning");
-        }
-        public int GetSpeed()
-        {
-            return (MaxSpeed + 0)/2;
+            Console.WriteLine("This is my Function");
+            return 7;
         }
     }
     interface IR : IRoom
     {
-        public void DoIt();
+        public new void DoIt();
     }
-    class Room : IR
+    class Room : IRoom, IHome
     {
         public void DoIt()
         {
-            Console.WriteLine("Do it");
+            Console.WriteLine("Do");
+        }
+    }
+    public class Tester: IRoom, IHome
+    {
+          void IRoom.DoIt()
+        {
+            Console.WriteLine("IRoom.DoIt()");
+        }
+          void IHome.DoIt()
+        {
+            Console.WriteLine("IHome.DoIt()");
         }
     }
 }
