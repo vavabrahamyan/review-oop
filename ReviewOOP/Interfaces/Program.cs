@@ -5,10 +5,9 @@ namespace Interfaces
     class Program
     {
         static void Main(string[] args)
-        { 
-            Room room = new Room(8);
-
-
+        {
+            IRoom r = new Room();
+            r.DoIt();
 
         }
         public static string Statement(string str)
