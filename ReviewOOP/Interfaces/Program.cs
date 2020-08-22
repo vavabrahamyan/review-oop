@@ -12,7 +12,11 @@ namespace Interfaces
             //User u = new User();
             //u.Move();
 
-
+            IAction action1 = new HeroAction();
+            action1.Move();                                  //BAse action
+                                                           
+            BaseAction action2 = new HeroAction();          
+            action2.Move();                                  //BAse action
         }
         public static string Statement(string str)
         {

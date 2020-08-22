@@ -10,14 +10,14 @@ namespace Interfaces
     }
     class BaseAction : IAction
     {
-        public virtual void Move()
+        public void Move()
         {
             Console.WriteLine("Move in BaseAction");
         }
     }
     class HeroAction : BaseAction
     {
-        public override void Move()
+        public new void Move()
         {
             Console.WriteLine("Move in HeroAction");
         }
