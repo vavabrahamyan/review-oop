@@ -9,8 +9,10 @@ namespace Interfaces
             //Person p = new User();
             //p.Move();
 
-            User u = new User();
-            u.Move();
+            //User u = new User();
+            //u.Move();
+
+
         }
         public static string Statement(string str)
         {
