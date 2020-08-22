@@ -6,10 +6,11 @@ namespace Interfaces
     {
         static void Main(string[] args)
         {
-            Tester t = new Tester();
+            //Person p = new User();
+            //p.Move();
 
-            (t as IRoom).DoIt();
-
+            User u = new User();
+            u.Move();
         }
         public static string Statement(string str)
         {
