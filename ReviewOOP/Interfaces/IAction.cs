@@ -15,9 +15,9 @@ namespace Interfaces
             Console.WriteLine("Move in BaseAction");
         }
     }
-    class HeroAction : BaseAction
+    class HeroAction : BaseAction, IAction
     {
-        public new void Move()
+        public void Move()
         {
             Console.WriteLine("Move in HeroAction");
         }

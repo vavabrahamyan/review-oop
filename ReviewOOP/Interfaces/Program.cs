@@ -13,10 +13,13 @@ namespace Interfaces
             //u.Move();
 
             IAction action1 = new HeroAction();
-            action1.Move();                                  //BAse action
+            action1.Move();                                  
                                                            
             BaseAction action2 = new HeroAction();          
-            action2.Move();                                  //BAse action
+            action2.Move();
+
+            HeroAction action3 = new HeroAction();
+            action3.Move();
         }
         public static string Statement(string str)
         {
