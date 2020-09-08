@@ -12,14 +12,17 @@ namespace Interfaces
             //User u = new User();
             //u.Move();
 
-            IAction action1 = new HeroAction();
-            action1.Move();                                  
-                                                           
-            BaseAction action2 = new HeroAction();          
-            action2.Move();
+            //IAction action1 = new HeroAction();
+            //action1.Move();                                  
 
-            HeroAction action3 = new HeroAction();
-            action3.Move();
+            //BaseAction action2 = new HeroAction();          
+            //action2.Move();
+
+            //HeroAction action3 = new HeroAction();
+            //action3.Move();
+
+            IUser<int> user = new IntUser(17);
+            Console.WriteLine(user.Id);
         }
         public static string Statement(string str)
         {

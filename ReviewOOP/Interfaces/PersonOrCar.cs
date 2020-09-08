@@ -15,10 +15,10 @@ namespace Interfaces
             Console.WriteLine("This is Move method from class Person ");
         }
     }
-    class User : Person, IMovable
-    {
+    //class User : Person, IMovable
+    //{
 
-    }
+    //}
     class Car : IMovable
     {
         public void Move()
