@@ -15,17 +15,30 @@ namespace BaseInterfaces
             //Console.WriteLine(p1.Name);
             //Console.WriteLine(p1.Work.Name);
 
-            Man m1 = new Man { Name = "Bill", Age = 44 };
-            Man m2 = new Man { Name = "Stive", Age = 34 };
-            Man m3 = new Man { Name = "Alice", Age = 17 };
 
-            Man[] men = new Man[] { m1, m2, m3 };
-            Array.Sort(men);
-            foreach (var m in men)
-            {
-                Console.WriteLine($"{m.Name} __ {m.Age}");
-            }
+            //Man m1 = new Man { Name = "Bill", Age = 44 };
+            //Man m2 = new Man { Name = "Stive", Age = 34 };
+            //Man m3 = new Man { Name = "Alice", Age = 17 };
+
+            //Man[] men = new Man[] { m1, m2, m3 };
+            //Array.Sort(men);
+            //foreach (var m in men)
+            //{
+            //    Console.WriteLine($"{m.Name} __ {m.Age}");
+            //}
+            //Console.Read();
+
+
+            IBank<DepositAccont> depositBank = new Bank<DepositAccont>();
+            Account acc1 = depositBank.CreateAccount(5000);
+
+            IBank<Account> ordinaryBank = new Bank<DepositAccont>();
+            Account acc2 = depositBank.CreateAccount(4500);
+
             Console.Read();
+
+            
+            
         }
     }
 }
